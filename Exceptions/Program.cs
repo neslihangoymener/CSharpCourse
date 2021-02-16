@@ -10,9 +10,51 @@ namespace Exceptions
     {
         static void Main(string[] args)
         {
-           // ExceptionIntro();
+            // ExceptionIntro();
+            try
+            {
+                Find();
+            }
+            catch (recordNotFoundException exception)
+            {
+                Console.WriteLine(exception.Message);
+                            }
+            catch (Exception exception) {
+
+            }
+            //Method
+            HandleException(() => {
+                Find();
+            });
 
             Console.ReadLine();
+        }
+
+        private static void HandleException(Action action)
+        {
+            try
+            {
+                action.Invoke();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
+        }
+
+        private static void Find()
+        {
+            List<string> students = new List<string> { "Engin", "Derin", "Salih" };
+
+            if (!students.Contains("Ahmet"))
+            {
+                throw new recordNotFoundException ("Record not found!");
+
+            }
+            else
+            {
+                Console.WriteLine("Record Found!");
+            }
         }
 
         private static void ExceptionIntro()

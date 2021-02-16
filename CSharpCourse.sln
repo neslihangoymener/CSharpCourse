@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{733CD8A0-C8E1-4BD2-A0F0-5E3B84DCAD71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo", "AdoNetDemo\AdoNetDemo.csproj", "{1711E6FF-047E-452C-B515-2CA4B5DFA680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{99150174-66CA-4719-BF03-97EF63EAD495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{733CD8A0-C8E1-4BD2-A0F0-5E3B84DCAD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{733CD8A0-C8E1-4BD2-A0F0-5E3B84DCAD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{733CD8A0-C8E1-4BD2-A0F0-5E3B84DCAD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1711E6FF-047E-452C-B515-2CA4B5DFA680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1711E6FF-047E-452C-B515-2CA4B5DFA680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1711E6FF-047E-452C-B515-2CA4B5DFA680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1711E6FF-047E-452C-B515-2CA4B5DFA680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99150174-66CA-4719-BF03-97EF63EAD495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99150174-66CA-4719-BF03-97EF63EAD495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99150174-66CA-4719-BF03-97EF63EAD495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99150174-66CA-4719-BF03-97EF63EAD495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
